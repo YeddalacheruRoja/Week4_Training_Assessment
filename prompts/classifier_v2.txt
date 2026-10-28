@@ -11,7 +11,7 @@ OUTPUT FORMAT:
 Reply with exactly one word: Billing, Technical, or Account. No punctuation, no explanation.
 
 CONSTRAINTS:
-- Billing = charges, invoices, refunds, payment amounts, subscription pricing.
+- Billing = charges, invoices (including invoice PDFs and invoice downloads), refunds, payment amounts, subscription pricing.
 - Technical = crashes, bugs, frozen or slow pages, API or website failures, even if a payment page is involved.
 - Account = login, passwords, profile, email changes, billing address or company details, cancelling or changing a plan, locked or deleted accounts.
 - If a ticket mentions money but the real problem is access or account management, choose Account. If it mentions payment but the real problem is a malfunction, choose Technical.
