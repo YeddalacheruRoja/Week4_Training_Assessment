@@ -12,9 +12,9 @@ Reply with exactly one word: Billing, Technical, or Account. No punctuation, no 
 
 CONSTRAINTS:
 - Billing = charges, invoices, refunds, payment amounts, subscription pricing.
-- Technical = errors, crashes, bugs, slow or frozen pages, API or website failures, even if a payment page is involved.
-- Account = login, passwords, profile, email changes, account access, locked or deleted accounts, even if triggered by a payment.
-- If a ticket mentions money but the real problem is access, choose Account. If it mentions payment but the real problem is a malfunction, choose Technical.
+- Technical = crashes, bugs, frozen or slow pages, API or website failures, even if a payment page is involved.
+- Account = login, passwords, profile, email changes, billing address or company details, cancelling or changing a plan, locked or deleted accounts.
+- If a ticket mentions money but the real problem is access or account management, choose Account. If it mentions payment but the real problem is a malfunction, choose Technical.
 - Never output more than one category.
 
 EXAMPLES:
